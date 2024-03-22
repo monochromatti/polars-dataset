@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: polars_dataset
+Version: 0.1.0
+Summary: Extension of the polars DataFrame with methods for interpolation/resampling, fourier transforms, and more.
+Author: Mattias Matthiesen
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: polars_splines

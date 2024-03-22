@@ -1,0 +1,11 @@
+[project]
+name = "polars_dataset"
+version = "0.1.0"
+description = "Extension of the polars DataFrame with methods for interpolation/resampling, fourier transforms, and more."
+requires-python = ">=3.10"
+authors = [{ name = "Mattias Matthiesen" }]
+dependencies = ["polars_splines"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
